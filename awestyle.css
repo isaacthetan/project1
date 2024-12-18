@@ -1,0 +1,61 @@
+body{
+display: flex;
+flex: auto;
+flex-direction: column;
+font-family: 'Roboto', sans-serif;
+margin: 0;
+height: 100vh;
+
+}
+.header{
+    display: flex;
+    background: #1f2937;
+    margin:0;
+    border:0;
+    padding: 10px;
+    max-height: 70px;
+  justify-content: space-between;
+  flex:auto;   
+}
+.logo{
+    font-size: 24px;
+}
+.font1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+.font2{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.headerlink{
+    list-style: none; 
+    display: flex;
+    gap:20px;
+
+}
+.card1{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+}
+.textleft{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    padding:20px;
+}
+.textright{
+    display:flex;
+    flex: 1;
+}
+
+.footer{
+    color:white;
+    background-color: #1f2937;
+    padding: 10px; 
+    display: flex;
+    justify-content: center;
+}
