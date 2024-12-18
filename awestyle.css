@@ -51,6 +51,36 @@ height: 100vh;
     display:flex;
     flex: 1;
 }
+.card2{
+background-color: white;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 900;
+}
+.bigbox{
+    display: flex;
+}
+.illus{
+    display: flex;
+    flex-direction: column;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    margin: 20px;
+    border-radius: 15px; /* Creates rounded corners */
+  }
+  
+.subtext{
+    padding:20px;
+    position: relative;
+    top: -10px; 
+}
 
 .footer{
     color:white;
